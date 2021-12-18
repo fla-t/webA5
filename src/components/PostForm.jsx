@@ -1,7 +1,7 @@
 import React from "react";
 
 const PostForm = () => {
-    return <p>form</p>;
+    return <h1>asdsad</h1>;
 };
 
 export default PostForm;

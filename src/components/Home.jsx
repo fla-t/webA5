@@ -7,7 +7,7 @@ class Home extends Component {
             <Row>
                 <PostCard
                     id="1"
-                    title="saqi gandu"
+                    title="saqi"
                     datetime="14 sept"
                     text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere odio vitae massa elementum ultrices. Quisque facilisis convallis quam faucibus imperdiet. Duis ullamcorper purus et felis auctor pharetra. Cras iaculis mauris ut purus sagittis, vitae sollicitudin tellus tincidunt. Nullam tempus a justo nec tempus. Morbi eu aliquet urna. Curabitur dui lectus, mattis vel massa id, commodo ullamcorper metus.
 
@@ -22,7 +22,7 @@ class Home extends Component {
 
                 <PostCard
                     id="1"
-                    title="saqi gandu"
+                    title="saqi"
                     datetime="14 sept"
                     text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere odio vitae massa elementum ultrices. Quisque facilisis convallis quam faucibus imperdiet. Duis ullamcorper purus et felis auctor pharetra. Cras iaculis mauris ut purus sagittis, vitae sollicitudin tellus tincidunt. Nullam tempus a justo nec tempus. Morbi eu aliquet urna. Curabitur dui lectus, mattis vel massa id, commodo ullamcorper metus.
 

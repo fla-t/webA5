@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navbar from "./components/Navbar";
 import Signin from "./components/Signin";
@@ -18,15 +18,13 @@ class App extends Component {
             <React.Fragment>
                 <Navbar isSignedIn={this.state.jwt === "" ? false : true} />
                 <Container>
-                    <Router>
-                        <Switch>
-                            <Route path="/signup" component={Signup} />
-                            <Route path="/post" component={Post} />
-                            <Route path="/post/:id" component={Post} />
-                            <Route path="/signin" component={Signin} />
-                            <Route path="/" component={Home} exact />
-                        </Switch>
-                    </Router>
+                    <Switch>
+                        <Route path="/signup" component={Signup} />
+                        <Route path="/post" component={PostForm} />
+                        <Route path="/post/:id" component={Post} />
+                        <Route path="/signin" component={Signin} />
+                        <Route path="/" component={Home} exact />
+                    </Switch>
                 </Container>
             </React.Fragment>
         );

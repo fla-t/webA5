@@ -6,7 +6,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
     <BrowserRouter>
-        <App />
+        <React.StrictMode>
+            <App />
+        </React.StrictMode>
     </BrowserRouter>,
     document.getElementById("root")
 );
